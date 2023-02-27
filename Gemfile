@@ -79,3 +79,4 @@ gem 'cancancan'
 
 # Use Devise for Authentication
 gem 'devise'
+gem 'letter_opener'
