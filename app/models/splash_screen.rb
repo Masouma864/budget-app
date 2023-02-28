@@ -1,0 +1,2 @@
+class SplashScreen < ApplicationRecord
+end
