@@ -74,3 +74,9 @@ end
 gem 'dotenv-rails'
 gem 'rspec-rails'
 gem 'rubocop', '>= 1.0', '< 2.0'
+# Use Cancancan for Authorization
+gem 'cancancan'
+
+# Use Devise for Authentication
+gem 'devise'
+gem 'letter_opener'
