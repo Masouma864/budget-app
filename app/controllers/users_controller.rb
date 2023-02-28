@@ -11,7 +11,7 @@ class UsersController < ApplicationController
   def show; end
 
   # GET /users/new
- 
+
 
   private
 
@@ -19,7 +19,7 @@ class UsersController < ApplicationController
   def set_user
     @user = User.find(params[:id])
   end
-  
+
   def redirect_to_categories
     redirect_to groups_url
   end

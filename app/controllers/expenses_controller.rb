@@ -13,7 +13,7 @@ class ExpensesController < ApplicationController
     @expense = Expense.new
   end
 
-   # GET group/expenses/1/edit
+  # GET group/expenses/1/edit
   # Get an existing expense record to render the edit form
   def edit; end
 
@@ -45,6 +45,7 @@ class ExpensesController < ApplicationController
   end
 
   private
+
   def set_user
     @author = current_user
   end
