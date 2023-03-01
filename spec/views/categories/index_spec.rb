@@ -21,11 +21,4 @@ RSpec.feature 'Categories', type: :feature do
     expect(current_path).to match groups_path
     expect(page).to have_content 'king cake'
   end
-
-  # it 'redirects to transactions page of the category' do
-  #     within("#group_#{@category.id}") do
-  #         click_on @category.name
-  #     end
-  #     expect(current_path).to match group_expenses_path(@category)
-  # end
 end

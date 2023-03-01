@@ -13,69 +13,101 @@
  *= require_tree .
  *= require_self
  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;800&family=Poppins:wght@300;400&display=swap');
 
- body,
- html {
-   height: 100%;
- 
-   /* overflow: hidden; */
- }
- 
- body {
-   position: relative;
- }
- 
- .group-container {
-   max-height: 80%;
- }
- 
- .expense-container {
-   max-height: 80%;
- }
- 
- .btn-primary {
-   background: linear-gradient(to bottom, #4267b2, #385898);
-   border: none;
- }
- 
- .btn-primary:hover {
-   background: transparent;
-   border: 2px solid #4267b2;
-   color: #4267b2;
- }
- 
- .category-container {
-   border: 3px solid white;
-   align-items: center;
-   padding: 0 20px;
- }
- 
- .new-category {
-   text-decoration: none;
-   font-family: 'Proxima Nova', sans-serif;
- }
- 
- .category-images {
-   width: 50px;
- }
- 
- .new-category p {
-   margin: 20px 0;
- }
- 
- .floating-notice {
-   position: absolute !important;
-   left: 20px;
-   z-index: 9999;
- }
- 
- .spice-color {
-   background-color: #316caf !important;
-   font-size: 1.5rem;
- }
- 
- @media (max-width: 767px) {
-   .navbar {
-     font-size: 1rem;
-   }
- }
+body,
+html {
+  height: 100%;
+
+  /* overflow: hidden; */
+}
+
+body {
+  position: relative;
+}
+
+.group-container {
+  max-height: 70vh;
+}
+
+.header {
+  background-color: #3778c2;
+  padding: 1.5rem;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .header-action {
+  color: white;
+  font-size: 1.05rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.header h2 {
+  font-size: 1.5rem;
+}
+
+.header span {
+  color: white;
+}
+
+.expense-container {
+  max-height: 70%;
+}
+
+.btn-primary {
+  background: linear-gradient(to bottom, #4267b2, #385898);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: transparent;
+  border: 2px solid #4267b2;
+  color: #4267b2;
+}
+
+.category-container {
+  border: 3px solid white;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.new-category {
+  text-decoration: none;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+.category-images {
+  width: 50px;
+}
+
+.new-category p {
+  margin: 20px 0;
+}
+
+.floating-notice {
+  position: absolute !important;
+  left: 20px;
+  z-index: 9999;
+}
+
+.spice-color {
+  background-color: #316caf !important;
+  font-size: 1.5rem;
+}
+
+.fa-arrow-left {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: lighter;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    font-size: 1rem;
+  }
+}
