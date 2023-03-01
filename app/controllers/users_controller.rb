@@ -11,8 +11,6 @@ class UsersController < ApplicationController
   def show; end
 
   # GET /users/new
-
-
   private
 
   # Use callbacks to share common setup or constraints between actions.
