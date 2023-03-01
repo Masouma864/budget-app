@@ -1,3 +1,12 @@
+<header class="header flex">
+<%= link_to '/', id: 'Home' do %>  
+<span>back</span>
+<% end %>
+  <h2>Login</h2>
+  <span>
+    <%= link_to "Sign up", new_registration_path(resource_name), class: 'header-action' %>
+  </span>
+</header>
 <div class="container my-5">
   <div class="row justify-content-center">
     <div class="col-md-6 col-lg-5">
