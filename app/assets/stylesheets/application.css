@@ -13,7 +13,8 @@
  *= require_tree .
  *= require_self
  */
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;800&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;800&family=Poppins:wght@300;400&display=swap');
+
 body,
 html {
   height: 100%;
@@ -30,29 +31,29 @@ body {
 }
 
 .header {
-    background-color: #3778c2;
-    padding: 1.5rem;
-    color: #fff;
-    align-items: center;
-    justify-content: space-between;
-  }
+  background-color: #3778c2;
+  padding: 1.5rem;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .header .header-action {
-    color: white;
-    font-size: 1.05rem;
-  }
+.header .header-action {
+  color: white;
+  font-size: 1.05rem;
+}
 
-  .flex {
-    display: flex;
-  }
-  
-  .header h2 {
-    font-size: 1.5rem;
-  }
+.flex {
+  display: flex;
+}
 
-  .header span{
-    color:white;
-  }
+.header h2 {
+  font-size: 1.5rem;
+}
+
+.header span {
+  color: white;
+}
 
 .expense-container {
   max-height: 70%;
@@ -101,7 +102,7 @@ body {
 
 .fa-arrow-left {
   font-size: 1rem;
-  color: #ffffff;
+  color: #fff;
   font-weight: lighter;
 }
 
@@ -110,4 +111,3 @@ body {
     font-size: 1rem;
   }
 }
-
